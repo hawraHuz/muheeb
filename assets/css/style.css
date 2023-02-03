@@ -176,6 +176,7 @@ button:hover{
 	height: 1080px;
 	left: 0px;
 	background: linear-gradient(180deg, #112E59 77.95%, #8EA1BE 100%);
+	
 
 }
 
@@ -218,6 +219,12 @@ font-family: 'merriweather';
 .p-3-1{
 	border:50px solid #F7EBC2;
 	height: 180px;
+}
+.part4{
+	background-image: url("../imgs/leaf.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .part4 h2{
 	font-family: 'merriweather';

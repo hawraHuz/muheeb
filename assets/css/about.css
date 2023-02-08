@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lora, meiweather;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(../imgs/build2.png);
+    background-size: cover;
+    background-position: top;
+  }
+  .navbar {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 300px;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #6db7ed;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-transform: translatey(-50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 75px;
+    margin-top: 80px;
+  }
+  .dark {
+    color: #6db7ed;
+    background-color: #6db7ed;
+  }
+  .light {
+    color: #a9cbff;
+    background-color: #a9cbff
+    ;
+  }
+   hr {
+    /* color: #6DB7ED; */
+    position: relative;
+    height: 5px;
+    width: 15%;
+    margin: auto;
+    opacity: 1;
+    border-radius: 20px;
+  }
+  
+  .container{
+    justify-content: center;
+  }
+  .part1 h5{
+    color: #6db7ed;
+    font-size:32px ;
+  }
+  .part1 p{
+    font-size: 20px;
+  }
+  
+  .col-4
+{border: #9A8C5D;
+    filter: drop-shadow(10px 6px 5px rgba(0, 0, 0, 0.25));
+}
+.part2 h2{
+    font-family: "merriweather";
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #112e59;
+  letter-spacing: 0.175cm;
+  text-transform: uppercase;
+}
+.card-subtitle{
+  font-size: 20px;
+}
+.part2 p{
+    text-align: center;
+}
+.card1{
+filter: drop-shadow(10px 6px 5px rgba(0, 0, 0, 0.25));
+}
+
+.card1{
+  justify-content: center;
+}
+  
+ .rounded-circle{
+  border: #F7EBC2 solid 5px;
+  max-width: 30%;
+  align-items: center;
+ }
+
+  .card-title{
+color: #6db7ed;
+text-align:center;
+font-size:24px
+
+  }
+
+  .card-text{
+    text-align: center;
+  }
+
+  .part3{
+    background-color: #112e59
+  }
+  .part3 p {
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+  }
